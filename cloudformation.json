@@ -3,7 +3,9 @@
     "Resources": {
         "S3Bucket": {
             "Type": "AWS::S3::Bucket",
-            "BucketName": "ci-cd-demo"
+            "Properties" : {
+                "BucketName" : "ci-cd-demo",
+            }
         }
     },
     "Outputs": {
